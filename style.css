@@ -1,0 +1,43 @@
+html {
+    font-family: sans-serif;
+}
+
+body {
+    background-image: url('mystery-box.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    width: 50%;
+    max-width: 800px;
+    min-width: 480px;
+    margin: 0 auto;
+}
+
+h1 {
+    color: burlywood;
+}
+
+.form input[type="number"] {
+    width: 200px;
+    height: 20px;
+          
+    outline: none;
+    color: #a1a1a1;
+    background: wheat;
+    align-items: center;
+    justify-content: center;
+}
+
+.guessSubmit{
+    width: 80px;
+    height: 25px;
+}
+.lastResult {
+    color: white;
+    padding: 3px;
+}
+
+p {
+    color: aquamarine;
+}
+
